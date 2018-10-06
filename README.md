@@ -7,7 +7,7 @@ Both these facilities use a configuration file as their source of truth. The def
 
 This file specifies which JET WebComponents are part of your JET application and indicate where (in which HitHub Repo) these components are located. JET Web Components are defined by name (which will be reflected in the directory name in your JET Application under /js/jet-composites/ ), the GIT HUB source repo (and a specific component path if it deviates from src/js/jet-composites/) and possibly the live endpoint (the URL where the JET Web Component should be retrieved from):
 
-'''
+```
 [
     {
         "name": "demo-zoo",
@@ -41,7 +41,7 @@ This file specifies which JET WebComponents are part of your JET application and
         "annotation" : "this JET WebComponent is not used from the sources bundled in the JET application but instead retrieved at runtime from the live-endpoint. If that endpoint is not accessible, the component will not load. Note: here is a way to mash up the UIs from various microservices at run time"
     }
 ]
-'''
+```
 
 
 ## JWCM - the JET WebComponent Manager

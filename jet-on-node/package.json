@@ -1,0 +1,13 @@
+{
+  "name": "jet-web-component-manager",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node jwcm"
+  },
+  "dependencies": {
+    "@octokit/rest": "^15.2.4",
+    "@oracle/oraclejet": "~4.1.0",
+    "shelljs": "^0.8.2"
+  }
+}
